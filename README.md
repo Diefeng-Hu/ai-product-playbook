@@ -2,7 +2,7 @@
 
 AI 产品经理的实践手册。
 
-在线阅读：[《AI Product Playbook：AI 产品经理的实践手册》](https://yaowenhu-uestc.github.io/ai-product-playbook/)
+在线阅读：[《AI Product Playbook：AI 产品经理的实践手册》](https://yaowenhu-pm.github.io/ai-product-playbook/)
 
 这是一本持续更新的公开在线书，记录 AI 产品、Agent 系统与 AI Native 协作中的真实问题、判断和方法。
 
