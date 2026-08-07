@@ -19,7 +19,7 @@ export default defineConfig({
     nav: [
       { text: "首页", link: "/" },
       { text: "目录", link: "/#contents" },
-      { text: "GitHub", link: "https://github.com/yaowenhu-uestc/ai-product-playbook" },
+      { text: "GitHub", link: "https://github.com/yaowenhu-pm/ai-product-playbook" },
     ],
     sidebar: contentGroups.map(({ partLabel, items }) => ({ text: partLabel, items })),
     aside: "left",
