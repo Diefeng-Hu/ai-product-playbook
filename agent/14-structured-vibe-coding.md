@@ -1,6 +1,6 @@
 # 用嘴编程会腐烂：把 AI 编码变成有护栏的工程
 
-> **第二部 · Agent 实践 · 第23章**
+> **第二部 · Agent 实践 · 第15章**
 >
 > 撰写日期：2026-07-07
 
@@ -27,7 +27,7 @@
 
 整套方法只有一个中心思想——**把每一步的成果浓缩进文件，让下一步在干净的新会话里、基于文件而不是聊天历史继续工作**。
 
-这样做同时解决三件事：省 token、防止模型幻觉、让任何一步都可以随时换个新会话重来。它和 [Agent Workflow 与评估](02-agent-workflow-evaluation.md) 里“可恢复”的要求是同一件事的两种说法：状态不在对话里，在文件里。
+这样做同时解决三件事：省 token、防止模型幻觉、让任何一步都可以随时换个新会话重来。它和 Agent Workflow 设计里“可恢复”的要求是同一件事的两种说法：状态不在对话里，在文件里。
 
 | 阶段 | 落地文件 | 这一步只回答 |
 | --- | --- | --- |
@@ -64,7 +64,7 @@
 
 关键约束：**整个实现过程全自动、无人参与，人唯一能下命令的时刻，是监工 Agent 最开始收到的那个 prompt**。所以这个 prompt 必须同时写清监工做什么、每个子 Agent 做什么，会相当复杂——复杂到它本身也值得让 AI 来生成（用一个“生成 prompt 的 prompt”，见上面链接的模板文档）。
 
-这和 [Agent 产品操作系统](01-agent-product-operating-system.md) 的分层思路一致：把长任务切成互不污染的短上下文，是多 Agent 协作最实在的收益，而不是“Agent 数量多”本身。
+把长任务切成互不污染的短上下文，是多 Agent 协作最实在的收益，而不是“Agent 数量多”本身。
 
 ## 质量护栏：每行代码都要有测试和类型检查
 
@@ -102,7 +102,4 @@
 
 ## 相关
 
-- [Agent Workflow 与评估](02-agent-workflow-evaluation.md)
-- [Agent 产品操作系统](01-agent-product-operating-system.md)
 - [结构化编码的四段式 Prompt 与生成编排 Prompt 的元 Prompt](../prompts/05-spec-driven-coding-prompts.md)
-- [AI 学习方法：先做，再补理论](../learning/02-ai-learning-by-building.md)

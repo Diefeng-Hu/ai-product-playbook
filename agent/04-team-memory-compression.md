@@ -1,6 +1,6 @@
 # Team Memory 系统设计：压缩比记录更难
 
-> **第二部 · Agent 实践 · 第13章**
+> **第二部 · Agent 实践 · 第6章**
 >
 > 撰写日期：2026-07-03
 
@@ -130,6 +130,5 @@ AI 筛出的候选记忆要不要直接入库？我的判断是：这个决策�
 
 ## 相关
 
-- [AI Native Team 协作基础设施](03-ai-native-team-collaboration.md)
 - [长期在线 Agent 自动化的工程手记](05-always-on-agent-ops.md)
 - [记忆筛选器 Prompt 模板](../prompts/02-memory-filter-prompt.md)

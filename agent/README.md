@@ -1,37 +1,22 @@
 # Agent
 
-这里记录 Agent、Memory、Context、MCP、Workspace 等 AI 原生工作流实践。
+这里记录 Agent、Memory、Context 等 AI 原生工作流实践。每篇都来自真实系统的搭建、事故和复盘。
 
 ## 已收录
 
 | # | 主题 | 说明 |
 | --- | --- | --- |
-| 1 | [Agent 产品操作系统](01-agent-product-operating-system.md) | 从 Context、Tool、Permission、Workflow、Evaluation、Memory 六层设计 Agent 产品 |
-| 2 | [Agent Workflow 与评估](02-agent-workflow-evaluation.md) | 从目标、Context、工具、权限和评估设计可执行 Agent Workflow |
-| 3 | [AI Native Team 协作基础设施](03-ai-native-team-collaboration.md) | 从 Team Memory、Organization State 和 Workflow 设计团队级 AI 协作 |
-| 4 | [Team Memory 系统设计：压缩比记录更难](04-team-memory-compression.md) | 三层决策模型、接受率毕业机制、静默原则与推拉时间结构 |
-| 5 | [长期在线 Agent 自动化的工程手记](05-always-on-agent-ops.md) | 单机部署、告警、降级纪律、三层兜底、headless 认证、静默分支审计与本地→云端迁移 |
-| 6 | [团队 IM 里的 AI 伙伴](06-team-chat-agent-design.md) | 人设、Context 分层、能力-安全边界与延迟四个产品变量 |
-| 7 | [自动化的权限边界与最后一公里](07-automation-permission-last-mile.md) | UI 权限 ≠ API 权限：写入探测前置、降级梯度与失败不丢产物 |
-| 8 | [半公开大屏：展示为主的团队状态可视化](08-ambient-team-display.md) | 环境信息屏的用户模型、自动轮播导演、信息量定拍长与"真人只说真话"隐私红线 |
-| 9 | [知识推送的注意力路由：从摘要到点名](09-attention-routing-push.md) | 三行路由卡模板、Prompt 约束+代码守门、画像质量决定路由上限与静候期 |
-| 10 | [团队 Bot 的必回复工程](10-bot-reply-guarantee.md) | "没回复"的五种故障分类、非文本兜底、Bot 自知边界、只救死不换血与合成事件验证 |
-| 11 | [Agent 执行基础设施变更：凭证卫生与人机交接点](11-agent-infra-change-guardrails.md) | 最小权限铸造、组织资产与个人资产、404 掩盖权限陷阱、实时同步选型与人机交接点设计 |
-| 12 | [把 Agent 代码纳入版本管理：代码、状态、用户数据、凭证的四层分离](12-versioning-agent-code-data-hygiene.md) | 工作目录是隐私高危区、白名单拷贝而非原地 gitignore、推送前密钥扫描与依赖只声明不打包 |
-| 13 | [声明交接点还不够：Agent 驱动 UI 时，不可逆操作要有执行防线](13-enforcing-agent-handoff-gates.md) | 声明的交接点≠被机制守住的交接点、三条执行层防线、越界后如实交代的信任校准 |
-| 14 | [用嘴编程会腐烂：把 AI 编码变成有护栏的工程](14-structured-vibe-coding.md) | 文档即上下文、四步流程、监工-子 Agent 分层、每行代码配单测与类型检查 |
-| 15 | [跨系统内容搬运的三个陷阱](15-cross-system-content-migration.md) | 格式转换管道会静默丢富媒体、粗粒度权限推不出细粒度权限、分类体系缺类目时该扩展而非硬凑 |
-| 16 | [会打架的虚拟形象：环境展示屏的间距工程与共享资源设计](16-avatar-spacing-and-shared-attractions.md) | 布局常数要运行时测量而非设计时假设、包围盒相交检测取代圆形阈值、固定领地+有上限共享设施折中两难目标、素材云端引用取代二进制入库 |
-| 17 | [小团队内部 AI 工具的采纳度量：覆盖率优先于频次](17-adoption-metrics-small-team.md) | 覆盖率 N/M（谁没用过）优先于频次、<50% 先降摩擦、永久事件账 + 卡内实时计数、剔除 owner |
-| 18 | [团队每日摘要：压缩纪律与署名纪律](18-daily-digest-compression-attribution.md) | 20~30 秒扫读硬上限、只留决策/风险/完成、宁可无名不可猜名、靠约定喂内容、卡内反馈信号 |
-| 19 | [内部广播管道的三个可靠性坑](19-broadcast-pipeline-reliability.md) | 无锁并发发重需去重锁、平台枚举字段要代码校验、真名默认脱敏、发送即记录消息 ID 以备撤回 |
-| 20 | [展示屏的客户端状态漂移：代码里发什么 ≠ 客户端里存什么](20-client-state-drift-kiosks.md) | 发布态与 localStorage 客户端态会静默漂移、编辑→写回种子→广播清缓存的固化闭环、三种收敛策略 |
-
-## 规划中
-
-| 主题 | 说明 |
-| --- | --- |
-| Memory | 长期记忆如何影响 AI 产品体验 |
-| Context | 上下文管理的产品边界 |
-| MCP | 工具连接层如何改变 AI 工作流 |
-| Workspace | 项目级 AI 协作空间 |
+| 1 | [Team Memory 系统设计：压缩比记录更难](04-team-memory-compression.md) | 三层决策模型、接受率毕业机制、静默原则与推拉时间结构 |
+| 2 | [长期在线 Agent 自动化的工程手记](05-always-on-agent-ops.md) | 单机部署、告警、降级纪律、三层兜底、headless 认证、静默分支审计与本地→云端迁移 |
+| 3 | [团队 IM 里的 AI 伙伴](06-team-chat-agent-design.md) | 人设、Context 分层、能力-安全边界与延迟四个产品变量 |
+| 4 | [自动化的权限边界与最后一公里](07-automation-permission-last-mile.md) | UI 权限 ≠ API 权限：写入探测前置、降级梯度与失败不丢产物 |
+| 5 | [半公开大屏：展示为主的团队状态可视化](08-ambient-team-display.md) | 环境信息屏的用户模型、自动轮播导演、信息量定拍长与"真人只说真话"隐私红线 |
+| 6 | [知识推送的注意力路由：从摘要到点名](09-attention-routing-push.md) | 三行路由卡模板、Prompt 约束+代码守门、画像质量决定路由上限与静候期 |
+| 7 | [团队 Bot 的必回复工程](10-bot-reply-guarantee.md) | "没回复"的五种故障分类、非文本兜底、Bot 自知边界、只救死不换血与合成事件验证 |
+| 8 | [把 Agent 代码纳入版本管理：代码、状态、用户数据、凭证的四层分离](12-versioning-agent-code-data-hygiene.md) | 工作目录是隐私高危区、白名单拷贝而非原地 gitignore、推送前密钥扫描与依赖只声明不打包 |
+| 9 | [声明交接点还不够：Agent 驱动 UI 时，不可逆操作要有执行防线](13-enforcing-agent-handoff-gates.md) | 声明的交接点≠被机制守住的交接点、三条执行层防线、越界后如实交代的信任校准 |
+| 10 | [用嘴编程会腐烂：把 AI 编码变成有护栏的工程](14-structured-vibe-coding.md) | 文档即上下文、四步流程、监工-子 Agent 分层、每行代码配单测与类型检查 |
+| 11 | [小团队内部 AI 工具的采纳度量：覆盖率优先于频次](17-adoption-metrics-small-team.md) | 覆盖率 N/M（谁没用过）优先于频次、<50% 先降摩擦、永久事件账 + 卡内实时计数、剔除 owner |
+| 12 | [长连接假活与漏事件对账](21-connection-false-alive-reconciliation.md) | 连接"在线"≠事件在送达、独立于连接状态的对账补偿、静默降级为 0 掩盖采集故障 |
+| 13 | [常驻 AI 问答服务的延迟预算](23-always-on-latency-budget.md) | 内存检索取代自主盲搜、按置信度分档模型、禁工具与流式回执 |
+| 14 | [无官方 API 数据源的增量镜像](24-incremental-mirroring-no-api.md) | 断点续传、resume 去重、删除传播与显式跳过清单 |

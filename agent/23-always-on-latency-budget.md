@@ -1,6 +1,6 @@
 # 常驻 AI 问答服务的延迟预算：内存检索、分档模型、禁工具、流式回执
 
-> **第二部 · Agent 实践 · 第32章**
+> **第二部 · Agent 实践 · 第18章**
 >
 > 撰写日期：2026-07-13
 
@@ -55,6 +55,4 @@ CLI 型模型常默认加载一堆插件 / 钩子 / 项目上下文，headless �
 
 ## 相关
 
-- [Agent 产品操作系统](01-agent-product-operating-system.md)
-- [Agent Workflow 与评估](02-agent-workflow-evaluation.md)
 - [长期在线 Agent 自动化的工程手记](05-always-on-agent-ops.md)

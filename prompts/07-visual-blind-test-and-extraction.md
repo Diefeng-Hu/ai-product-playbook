@@ -1,6 +1,6 @@
 # 视觉偏好盲测协议与 VLM 有序偏好抽取 Prompt
 
-> **第三部 · Prompt · 第40章**
+> **第三部 · Prompt · 第23章**
 >
 > 撰写日期：2026-07-13
 
@@ -59,6 +59,4 @@
 
 ## 相关
 
-- [团队每日摘要生成 Prompt（压缩纪律 + 署名纪律）](06-daily-digest-prompt.md)
 - [结构化编码的四段式 Prompt 与生成编排的元 Prompt](05-spec-driven-coding-prompts.md)
-- [Skill 评估框架](../skills/01-skill-evaluation-framework.md)

@@ -1,6 +1,6 @@
 # 把 Agent 代码纳入版本管理：代码、状态、用户数据、凭证的四层分离
 
-> **第二部 · Agent 实践 · 第21章**
+> **第二部 · Agent 实践 · 第13章**
 >
 > 撰写日期：2026-07-07
 
@@ -66,5 +66,4 @@
 ## 相关
 
 - [长期在线 Agent 自动化的工程手记](05-always-on-agent-ops.md)
-- [Agent 执行基础设施变更：凭证卫生与人机交接点](11-agent-infra-change-guardrails.md)
 - [团队 IM 里的 AI 伙伴](06-team-chat-agent-design.md)

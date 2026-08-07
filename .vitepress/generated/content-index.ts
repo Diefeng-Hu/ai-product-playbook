@@ -13,59 +13,35 @@ export const contentGroups = [
         "text": "第 1 章 · 任务型 AI 与关系型 AI"
       },
       {
-        "title": "AI Product Playbook 的结构",
-        "link": "/product-notes/02-ai-product-playbook-structure",
-        "chapter": 2,
-        "text": "第 2 章 · AI Product Playbook 的结构"
-      },
-      {
-        "title": "把早期 AI 创业经历当成产品现场",
-        "link": "/product-notes/03-early-ai-startup-fieldwork",
-        "chapter": 3,
-        "text": "第 3 章 · 把早期 AI 创业经历当成产品现场"
-      },
-      {
-        "title": "从第一性原理理解 Agent 产品",
-        "link": "/product-notes/04-agent-product-first-principles",
-        "chapter": 4,
-        "text": "第 4 章 · 从第一性原理理解 Agent 产品"
-      },
-      {
-        "title": "AI 产品经理能力地图",
-        "link": "/product-notes/05-ai-pm-capability-map",
-        "chapter": 5,
-        "text": "第 5 章 · AI 产品经理能力地图"
-      },
-      {
         "title": "关系型 AI 的记忆时机与经济模型",
         "link": "/product-notes/06-relationship-ai-memory-economics",
-        "chapter": 6,
-        "text": "第 6 章 · 关系型 AI 的记忆时机与经济模型"
+        "chapter": 2,
+        "text": "第 2 章 · 关系型 AI 的记忆时机与经济模型"
       },
       {
         "title": "把模型的短板设计成交互特性",
         "link": "/product-notes/07-designing-around-model-limits",
-        "chapter": 7,
-        "text": "第 7 章 · 把模型的短板设计成交互特性"
+        "chapter": 3,
+        "text": "第 3 章 · 把模型的短板设计成交互特性"
       },
       {
         "title": "个人 AI 的第一性原理：为检索而生的数字分身",
         "link": "/product-notes/08-personal-ai-first-principles",
-        "chapter": 8,
-        "text": "第 8 章 · 个人 AI 的第一性原理：为检索而生的数字分身"
+        "chapter": 4,
+        "text": "第 4 章 · 个人 AI 的第一性原理：为检索而生的数字分身"
       },
       {
         "title": "内容型产品的编辑抽象：给业主语义模型，而不是代码",
         "link": "/product-notes/09-content-editing-semantic-model",
-        "chapter": 9,
-        "text": "第 9 章 · 内容型产品的编辑抽象：给业主语义模型，而不是代码"
+        "chapter": 5,
+        "text": "第 5 章 · 内容型产品的编辑抽象：给业主语义模型，而不是代码"
       }
     ],
     "chapterRange": [
       1,
-      9
+      5
     ],
-    "chapterLabel": "第 1–9 章"
+    "chapterLabel": "第 1–5 章"
   },
   {
     "text": "Agent 实践",
@@ -74,155 +50,95 @@ export const contentGroups = [
     "partLabel": "第二部 · Agent 实践",
     "items": [
       {
-        "title": "Agent 产品操作系统",
-        "link": "/agent/01-agent-product-operating-system",
-        "chapter": 10,
-        "text": "第 10 章 · Agent 产品操作系统"
-      },
-      {
-        "title": "Agent Workflow 与评估",
-        "link": "/agent/02-agent-workflow-evaluation",
-        "chapter": 11,
-        "text": "第 11 章 · Agent Workflow 与评估"
-      },
-      {
-        "title": "AI Native Team 协作基础设施",
-        "link": "/agent/03-ai-native-team-collaboration",
-        "chapter": 12,
-        "text": "第 12 章 · AI Native Team 协作基础设施"
-      },
-      {
         "title": "Team Memory 系统设计：压缩比记录更难",
         "link": "/agent/04-team-memory-compression",
-        "chapter": 13,
-        "text": "第 13 章 · Team Memory 系统设计：压缩比记录更难"
+        "chapter": 6,
+        "text": "第 6 章 · Team Memory 系统设计：压缩比记录更难"
       },
       {
         "title": "长期在线 Agent 自动化的工程手记",
         "link": "/agent/05-always-on-agent-ops",
-        "chapter": 14,
-        "text": "第 14 章 · 长期在线 Agent 自动化的工程手记"
+        "chapter": 7,
+        "text": "第 7 章 · 长期在线 Agent 自动化的工程手记"
       },
       {
         "title": "团队 IM 里的 AI 伙伴：把 Bot 做成成员，而不是工具",
         "link": "/agent/06-team-chat-agent-design",
-        "chapter": 15,
-        "text": "第 15 章 · 团队 IM 里的 AI 伙伴：把 Bot 做成成员，而不是工具"
+        "chapter": 8,
+        "text": "第 8 章 · 团队 IM 里的 AI 伙伴：把 Bot 做成成员，而不是工具"
       },
       {
         "title": "自动化的权限边界与最后一公里",
         "link": "/agent/07-automation-permission-last-mile",
-        "chapter": 16,
-        "text": "第 16 章 · 自动化的权限边界与最后一公里"
+        "chapter": 9,
+        "text": "第 9 章 · 自动化的权限边界与最后一公里"
       },
       {
         "title": "半公开大屏：展示为主的团队状态可视化",
         "link": "/agent/08-ambient-team-display",
-        "chapter": 17,
-        "text": "第 17 章 · 半公开大屏：展示为主的团队状态可视化"
+        "chapter": 10,
+        "text": "第 10 章 · 半公开大屏：展示为主的团队状态可视化"
       },
       {
         "title": "知识推送的注意力路由：从摘要到点名",
         "link": "/agent/09-attention-routing-push",
-        "chapter": 18,
-        "text": "第 18 章 · 知识推送的注意力路由：从摘要到点名"
+        "chapter": 11,
+        "text": "第 11 章 · 知识推送的注意力路由：从摘要到点名"
       },
       {
         "title": "团队 Bot 的必回复工程",
         "link": "/agent/10-bot-reply-guarantee",
-        "chapter": 19,
-        "text": "第 19 章 · 团队 Bot 的必回复工程"
-      },
-      {
-        "title": "Agent 执行基础设施变更：凭证卫生与人机交接点",
-        "link": "/agent/11-agent-infra-change-guardrails",
-        "chapter": 20,
-        "text": "第 20 章 · Agent 执行基础设施变更：凭证卫生与人机交接点"
+        "chapter": 12,
+        "text": "第 12 章 · 团队 Bot 的必回复工程"
       },
       {
         "title": "把 Agent 代码纳入版本管理：代码、状态、用户数据、凭证的四层分离",
         "link": "/agent/12-versioning-agent-code-data-hygiene",
-        "chapter": 21,
-        "text": "第 21 章 · 把 Agent 代码纳入版本管理：代码、状态、用户数据、凭证的四层分离"
+        "chapter": 13,
+        "text": "第 13 章 · 把 Agent 代码纳入版本管理：代码、状态、用户数据、凭证的四层分离"
       },
       {
         "title": "声明交接点还不够：Agent 驱动 UI 时，不可逆操作要有执行防线",
         "link": "/agent/13-enforcing-agent-handoff-gates",
-        "chapter": 22,
-        "text": "第 22 章 · 声明交接点还不够：Agent 驱动 UI 时，不可逆操作要有执行防线"
+        "chapter": 14,
+        "text": "第 14 章 · 声明交接点还不够：Agent 驱动 UI 时，不可逆操作要有执行防线"
       },
       {
         "title": "用嘴编程会腐烂：把 AI 编码变成有护栏的工程",
         "link": "/agent/14-structured-vibe-coding",
-        "chapter": 23,
-        "text": "第 23 章 · 用嘴编程会腐烂：把 AI 编码变成有护栏的工程"
-      },
-      {
-        "title": "跨系统内容搬运的三个陷阱：保真、颗粒度权限、分类扩展",
-        "link": "/agent/15-cross-system-content-migration",
-        "chapter": 24,
-        "text": "第 24 章 · 跨系统内容搬运的三个陷阱：保真、颗粒度权限、分类扩展"
-      },
-      {
-        "title": "会打架的虚拟形象：环境展示屏的间距工程与共享资源设计",
-        "link": "/agent/16-avatar-spacing-and-shared-attractions",
-        "chapter": 25,
-        "text": "第 25 章 · 会打架的虚拟形象：环境展示屏的间距工程与共享资源设计"
+        "chapter": 15,
+        "text": "第 15 章 · 用嘴编程会腐烂：把 AI 编码变成有护栏的工程"
       },
       {
         "title": "小团队内部 AI 工具的采纳度量：覆盖率优先于频次",
         "link": "/agent/17-adoption-metrics-small-team",
-        "chapter": 26,
-        "text": "第 26 章 · 小团队内部 AI 工具的采纳度量：覆盖率优先于频次"
-      },
-      {
-        "title": "团队每日摘要：压缩纪律与署名纪律",
-        "link": "/agent/18-daily-digest-compression-attribution",
-        "chapter": 27,
-        "text": "第 27 章 · 团队每日摘要：压缩纪律与署名纪律"
-      },
-      {
-        "title": "内部广播管道的三个可靠性坑",
-        "link": "/agent/19-broadcast-pipeline-reliability",
-        "chapter": 28,
-        "text": "第 28 章 · 内部广播管道的三个可靠性坑"
-      },
-      {
-        "title": "展示屏的客户端状态漂移：代码里发什么 ≠ 客户端里存什么",
-        "link": "/agent/20-client-state-drift-kiosks",
-        "chapter": 29,
-        "text": "第 29 章 · 展示屏的客户端状态漂移：代码里发什么 ≠ 客户端里存什么"
+        "chapter": 16,
+        "text": "第 16 章 · 小团队内部 AI 工具的采纳度量：覆盖率优先于频次"
       },
       {
         "title": "长连接假活与漏事件对账：把\"无解\"的断连间隙变成可补偿的",
         "link": "/agent/21-connection-false-alive-reconciliation",
-        "chapter": 30,
-        "text": "第 30 章 · 长连接假活与漏事件对账：把\"无解\"的断连间隙变成可补偿的"
-      },
-      {
-        "title": "共享自动化的身份与凭证：谁在跑、拿谁的钥匙、炸多大",
-        "link": "/agent/22-shared-automation-identity-credentials",
-        "chapter": 31,
-        "text": "第 31 章 · 共享自动化的身份与凭证：谁在跑、拿谁的钥匙、炸多大"
+        "chapter": 17,
+        "text": "第 17 章 · 长连接假活与漏事件对账：把\"无解\"的断连间隙变成可补偿的"
       },
       {
         "title": "常驻 AI 问答服务的延迟预算：内存检索、分档模型、禁工具、流式回执",
         "link": "/agent/23-always-on-latency-budget",
-        "chapter": 32,
-        "text": "第 32 章 · 常驻 AI 问答服务的延迟预算：内存检索、分档模型、禁工具、流式回执"
+        "chapter": 18,
+        "text": "第 18 章 · 常驻 AI 问答服务的延迟预算：内存检索、分档模型、禁工具、流式回执"
       },
       {
         "title": "无官方 API 数据源的增量镜像：断点续传、resume 去重、删除传播",
         "link": "/agent/24-incremental-mirroring-no-api",
-        "chapter": 33,
-        "text": "第 33 章 · 无官方 API 数据源的增量镜像：断点续传、resume 去重、删除传播"
+        "chapter": 19,
+        "text": "第 19 章 · 无官方 API 数据源的增量镜像：断点续传、resume 去重、删除传播"
       }
     ],
     "chapterRange": [
-      10,
-      33
+      6,
+      19
     ],
-    "chapterLabel": "第 10–33 章"
+    "chapterLabel": "第 6–19 章"
   },
   {
     "text": "Prompt",
@@ -231,53 +147,35 @@ export const contentGroups = [
     "partLabel": "第三部 · Prompt",
     "items": [
       {
-        "title": "从 Prompt 到 Workflow",
-        "link": "/prompts/01-prompt-to-workflow",
-        "chapter": 34,
-        "text": "第 34 章 · 从 Prompt 到 Workflow"
-      },
-      {
         "title": "记忆筛选器 Prompt 模板",
         "link": "/prompts/02-memory-filter-prompt",
-        "chapter": 35,
-        "text": "第 35 章 · 记忆筛选器 Prompt 模板"
-      },
-      {
-        "title": "Playbook 更新判断清单",
-        "link": "/prompts/03-playbook-update-checklist",
-        "chapter": 36,
-        "text": "第 36 章 · Playbook 更新判断清单"
+        "chapter": 20,
+        "text": "第 20 章 · 记忆筛选器 Prompt 模板"
       },
       {
         "title": "第三方集成接入自检 Prompt",
         "link": "/prompts/04-third-party-integration-checklist",
-        "chapter": 37,
-        "text": "第 37 章 · 第三方集成接入自检 Prompt"
+        "chapter": 21,
+        "text": "第 21 章 · 第三方集成接入自检 Prompt"
       },
       {
         "title": "结构化编码的四段式 Prompt 与生成编排的元 Prompt",
         "link": "/prompts/05-spec-driven-coding-prompts",
-        "chapter": 38,
-        "text": "第 38 章 · 结构化编码的四段式 Prompt 与生成编排的元 Prompt"
-      },
-      {
-        "title": "每日团队摘要生成 Prompt（压缩纪律 + 署名纪律）",
-        "link": "/prompts/06-daily-digest-prompt",
-        "chapter": 39,
-        "text": "第 39 章 · 每日团队摘要生成 Prompt（压缩纪律 + 署名纪律）"
+        "chapter": 22,
+        "text": "第 22 章 · 结构化编码的四段式 Prompt 与生成编排的元 Prompt"
       },
       {
         "title": "视觉偏好盲测协议与 VLM 有序偏好抽取 Prompt",
         "link": "/prompts/07-visual-blind-test-and-extraction",
-        "chapter": 40,
-        "text": "第 40 章 · 视觉偏好盲测协议与 VLM 有序偏好抽取 Prompt"
+        "chapter": 23,
+        "text": "第 23 章 · 视觉偏好盲测协议与 VLM 有序偏好抽取 Prompt"
       }
     ],
     "chapterRange": [
-      34,
-      40
+      20,
+      23
     ],
-    "chapterLabel": "第 34–40 章"
+    "chapterLabel": "第 20–23 章"
   },
   {
     "text": "Skill",
@@ -286,23 +184,17 @@ export const contentGroups = [
     "partLabel": "第四部 · Skill",
     "items": [
       {
-        "title": "Skill 评估框架",
-        "link": "/skills/01-skill-evaluation-framework",
-        "chapter": 41,
-        "text": "第 41 章 · Skill 评估框架"
-      },
-      {
         "title": "什么时候把任务沉淀成 Skill",
         "link": "/skills/02-when-to-build-a-skill",
-        "chapter": 42,
-        "text": "第 42 章 · 什么时候把任务沉淀成 Skill"
+        "chapter": 24,
+        "text": "第 24 章 · 什么时候把任务沉淀成 Skill"
       }
     ],
     "chapterRange": [
-      41,
-      42
+      24,
+      24
     ],
-    "chapterLabel": "第 41–42 章"
+    "chapterLabel": "第 24 章"
   },
   {
     "text": "学习与复盘",
@@ -311,48 +203,17 @@ export const contentGroups = [
     "partLabel": "第五部 · 学习与复盘",
     "items": [
       {
-        "title": "早期 AI 创业观察日志模板",
-        "link": "/learning/01-ai-startup-fieldwork-log",
-        "chapter": 43,
-        "text": "第 43 章 · 早期 AI 创业观察日志模板"
-      },
-      {
-        "title": "AI 学习方法：先做，再补理论",
-        "link": "/learning/02-ai-learning-by-building",
-        "chapter": 44,
-        "text": "第 44 章 · AI 学习方法：先做，再补理论"
-      },
-      {
         "title": "用 AI 写万字长文：先对齐，再动笔",
         "link": "/learning/03-long-doc-alignment-before-writing",
-        "chapter": 45,
-        "text": "第 45 章 · 用 AI 写万字长文：先对齐，再动笔"
+        "chapter": 25,
+        "text": "第 25 章 · 用 AI 写万字长文：先对齐，再动笔"
       }
     ],
     "chapterRange": [
-      43,
-      45
+      25,
+      25
     ],
-    "chapterLabel": "第 43–45 章"
-  },
-  {
-    "text": "资源",
-    "directory": "resources",
-    "part": 6,
-    "partLabel": "第六部 · 资源",
-    "items": [
-      {
-        "title": "AI 产品资源地图",
-        "link": "/resources/01-ai-product-resource-map",
-        "chapter": 46,
-        "text": "第 46 章 · AI 产品资源地图"
-      }
-    ],
-    "chapterRange": [
-      46,
-      46
-    ],
-    "chapterLabel": "第 46 章"
+    "chapterLabel": "第 25 章"
   }
 ] as const;
-export const contentCount = 46;
+export const contentCount = 25;

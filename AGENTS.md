@@ -2,7 +2,7 @@
 
 ## Project Structure & Module Organization
 
-This repository publishes a VitePress online book. Article sources live only in `product-notes/`, `agent/`, `prompts/`, `skills/`, `learning/`, and `resources/`; each article is a numbered Markdown file. Do not create duplicate article bodies under `book/` or elsewhere. `scripts/generate-content-index.mjs` scans those directories and generates the VitePress index plus the marked catalogue in `README.md`. Theme code is in `.vitepress/theme/`, site configuration in `.vitepress/config.ts`, and the visit counter Worker in `workers/visit-counter.js` with `wrangler.jsonc`.
+This repository publishes a VitePress online book. Article sources live only in `product-notes/`, `agent/`, `prompts/`, `skills/`, and `learning/`; each article is a numbered Markdown file. Do not create duplicate article bodies under `book/` or elsewhere. `scripts/generate-content-index.mjs` scans those directories and generates the VitePress index plus the marked catalogue in `README.md`. Theme code is in `.vitepress/theme/`, site configuration in `.vitepress/config.ts`, and the visit counter Worker in `workers/visit-counter.js` with `wrangler.jsonc`.
 
 ## Build, Test, and Development Commands
 

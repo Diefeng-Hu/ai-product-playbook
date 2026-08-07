@@ -1,6 +1,6 @@
 # 长连接假活与漏事件对账：把"无解"的断连间隙变成可补偿的
 
-> **第二部 · Agent 实践 · 第30章**
+> **第二部 · Agent 实践 · 第17章**
 >
 > 撰写日期：2026-07-12
 
@@ -55,4 +55,3 @@
 
 - [团队 Bot 的必回复工程](10-bot-reply-guarantee.md)
 - [长期在线 Agent 自动化的工程手记](05-always-on-agent-ops.md)
-- [内部广播管道的三个可靠性坑](19-broadcast-pipeline-reliability.md)

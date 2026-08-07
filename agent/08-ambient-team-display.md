@@ -1,6 +1,6 @@
 # 半公开大屏：展示为主的团队状态可视化
 
-> **第二部 · Agent 实践 · 第17章**
+> **第二部 · Agent 实践 · 第10章**
 >
 > 撰写日期：2026-07-05
 
@@ -103,6 +103,5 @@
 
 ## 相关
 
-- [AI Native Team 协作基础设施](03-ai-native-team-collaboration.md)
 - [团队 IM 里的 AI 伙伴](06-team-chat-agent-design.md)
 - [知识推送的注意力路由](09-attention-routing-push.md)

@@ -1,6 +1,6 @@
 # 长期在线 Agent 自动化的工程手记
 
-> **第二部 · Agent 实践 · 第14章**
+> **第二部 · Agent 实践 · 第7章**
 >
 > 撰写日期：2026-07-03
 
@@ -153,5 +153,4 @@
 ## 相关
 
 - [Team Memory 系统设计：压缩比记录更难](04-team-memory-compression.md)
-- [AI Native Team 协作基础设施](03-ai-native-team-collaboration.md)
 - [把 Agent 代码纳入版本管理：代码、状态、用户数据、凭证的四层分离](12-versioning-agent-code-data-hygiene.md)

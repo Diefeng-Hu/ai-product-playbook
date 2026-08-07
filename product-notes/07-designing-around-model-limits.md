@@ -1,6 +1,6 @@
 # 把模型的短板设计成交互特性
 
-> **第一部 · 产品手记 · 第7章**
+> **第一部 · 产品手记 · 第3章**
 >
 > 撰写日期：2026-07-10
 
@@ -47,5 +47,4 @@
 ## 相关
 
 - [关系型 AI 的记忆时机与经济模型](06-relationship-ai-memory-economics.md)
-- [从第一性原理理解 Agent 产品](04-agent-product-first-principles.md)
 - [任务型 AI 与关系型 AI](01-task-ai-vs-relationship-ai.md)

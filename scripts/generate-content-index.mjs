@@ -7,7 +7,6 @@ const groups = [
   ["prompts", "Prompt"],
   ["skills", "Skill"],
   ["learning", "学习与复盘"],
-  ["resources", "资源"],
 ];
 
 const titleOf = async (path) => {

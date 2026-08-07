@@ -1,6 +1,6 @@
 # 小团队内部 AI 工具的采纳度量：覆盖率优先于频次
 
-> **第二部 · Agent 实践 · 第26章**
+> **第二部 · Agent 实践 · 第16章**
 >
 > 撰写日期：2026-07-10
 
@@ -49,6 +49,4 @@
 
 ## 相关
 
-- [AI Native Team 协作基础设施](03-ai-native-team-collaboration.md)
-- [团队每日摘要：压缩纪律与署名纪律](18-daily-digest-compression-attribution.md)
 - [知识推送的注意力路由：从摘要到点名](09-attention-routing-push.md)

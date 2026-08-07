@@ -1,12 +1,12 @@
 # 什么时候把任务沉淀成 Skill
 
-> **第四部 · Skill · 第42章**
+> **第四部 · Skill · 第24章**
 >
 > 撰写日期：2026-07-13
 
 ## 结论
 
-[Skill 评估框架](01-skill-evaluation-framework.md) 讲的是"一个 Skill 好不好"。这篇讲更靠前的两个决定：**要不要把这件事做成 Skill**，以及做了之后**怎么保证它真的会被触发**。
+比"一个 Skill 好不好"更靠前的，是两个决定：**要不要把这件事做成 Skill**，以及做了之后**怎么保证它真的会被触发**。
 
 > Twice, Skill——同一类操作做到第二次，就值得沉淀。而 `description` 是运行时被自动匹配的唯一依据，宁可覆盖过宽，也别欠触发。
 
@@ -34,7 +34,7 @@ Skill 会不会被调起，取决于 `description` 和当前请求的自动匹�
 
 ## 3. Skill 还是留作一次性 Prompt
 
-不是所有重复都值得封装。对照 [Skill 评估框架](01-skill-evaluation-framework.md) 里的 D 级：
+不是所有重复都值得封装：
 
 | 情况 | 归宿 |
 | --- | --- |
@@ -49,5 +49,4 @@ Skill 化的主要成本是**维护**（它会一直在，写偏了会一直误�
 
 ## 相关
 
-- [Skill 评估框架](01-skill-evaluation-framework.md)
 - [结构化编码的四段式 Prompt 与生成编排的元 Prompt](../prompts/05-spec-driven-coding-prompts.md)

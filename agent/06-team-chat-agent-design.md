@@ -1,6 +1,6 @@
 # 团队 IM 里的 AI 伙伴：把 Bot 做成成员，而不是工具
 
-> **第二部 · Agent 实践 · 第15章**
+> **第二部 · Agent 实践 · 第8章**
 >
 > 撰写日期：2026-07-04
 
@@ -84,6 +84,5 @@ Bot 进群的第一天决定团队对它的初始预期。我验证过一个编�
 
 ## 相关
 
-- [Agent 产品操作系统](01-agent-product-operating-system.md)
 - [Team Memory 系统设计：压缩比记录更难](04-team-memory-compression.md)
 - [长期在线 Agent 自动化的工程手记](05-always-on-agent-ops.md)
