@@ -2,7 +2,7 @@
 
 ## Project Structure & Module Organization
 
-This repository publishes a VitePress online book. Article sources live only in `product-notes/`, `agent/`, `prompts/`, `skills/`, and `learning/`; each article is a numbered Markdown file. Do not create duplicate article bodies under `book/` or elsewhere. `scripts/generate-content-index.mjs` scans those directories and generates the VitePress index plus the marked catalogue in `README.md`. Theme code is in `.vitepress/theme/`, site configuration in `.vitepress/config.ts`, and the visit counter Worker in `workers/visit-counter.js` with `wrangler.jsonc`.
+This repository publishes a VitePress online book. Numbered chapters live in `model/`, `platform/`, and `applications/`. Reusable, unnumbered assets live in `toolkit/`; concise supporting examples live in `cases/`. Do not create duplicate article bodies under `book/` or elsewhere. `scripts/generate-content-index.mjs` scans those directories and generates the VitePress index plus the marked catalogue in `README.md`. Theme code is in `.vitepress/theme/`, site configuration in `.vitepress/config.ts`, and the visit counter Worker in `workers/visit-counter.js` with `wrangler.jsonc`.
 
 ## Build, Test, and Development Commands
 
@@ -16,7 +16,7 @@ There is no separate test suite. A successful `npm run docs:build`, correct gene
 
 ## Content, Style, and Naming
 
-Keep article filenames numbered and kebab-cased, for example `agent/22-new-topic.md`; the generator defines reading order from filenames. Preserve each article's first-level title, chapter marker, and `撰写日期` line. Write public-facing Chinese that is restrained, specific, and professional; remove internal credentials, private operational details, and chat transcripts. Edit navigation rules in `scripts/generate-content-index.mjs`, not generated files under `.vitepress/generated/`.
+Keep filenames numbered and kebab-cased, for example `platform/03-agent-reliability.md`; the generator defines reading order from filenames. Preserve each article's first-level title, section marker, and `撰写日期` line. Write public-facing Chinese that is restrained, specific, and professional; remove internal credentials, private operational details, chat transcripts, and implementation details that do not change a reader's future decision. Edit navigation rules in `scripts/generate-content-index.mjs`, not generated files under `.vitepress/generated/`.
 
 ## Commits, Pull Requests, and Deployment
 

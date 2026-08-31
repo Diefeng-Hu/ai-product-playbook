@@ -1,15 +1,15 @@
 <script setup lang="ts">
 import { withBase } from "vitepress";
-import { contentCount, contentGroups } from "../../generated/content-index";
+import { contentCount, contentGroups, supplementaryCount } from "../../generated/content-index";
 </script>
 
 <template>
   <section id="contents" class="content-directory">
-    <p class="eyebrow">CONTENTS · {{ contentCount }} 篇原文</p>
+    <p class="eyebrow">CONTENTS · {{ contentCount }} 章正文 · {{ supplementaryCount }} 篇工具与案例</p>
     <h2>从实践中整理出的<br />AI 产品工作方法</h2>
     <div v-for="group in contentGroups" :key="group.directory" class="content-group">
       <div class="group-heading">
-        <span>第 {{ group.part }} 部</span>
+        <span>{{ group.kicker }}</span>
         <h3>{{ group.text }}</h3>
         <small>{{ group.chapterLabel }}</small>
       </div>

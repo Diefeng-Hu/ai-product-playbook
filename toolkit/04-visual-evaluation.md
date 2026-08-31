@@ -1,6 +1,6 @@
 # 视觉偏好盲测协议与 VLM 有序偏好抽取 Prompt
 
-> **第三部 · Prompt · 第23章**
+> **工具箱 · 评估方法**
 >
 > 撰写日期：2026-07-13
 
@@ -59,4 +59,4 @@
 
 ## 相关
 
-- [结构化编码的四段式 Prompt 与生成编排的元 Prompt](05-spec-driven-coding-prompts.md)
+- [模型输出的约束与验证](../model/03-uncertainty-and-validation.md)
