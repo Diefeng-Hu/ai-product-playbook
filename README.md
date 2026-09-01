@@ -17,32 +17,33 @@ AI 产品经理的实践手册。
 
 <!-- CONTENTS:START -->
 
-### 第一部 · 模型能力与边界（第 1–3 章）
+### 第一部 · 模型能力与边界（第 1–4 章）
 
 | 章节 | 文章 |
 | --- | --- |
 | 第 1 章 | [用模型的稳定能力设计产品](model/01-designing-with-model-boundaries.md) |
 | 第 2 章 | [Context、检索与信息压缩](model/02-context-retrieval-compression.md) |
 | 第 3 章 | [模型输出的约束与验证](model/03-uncertainty-and-validation.md) |
+| 第 4 章 | [当答案越来越便宜，什么值得我们追问](model/04-when-answers-get-cheaper.md) |
 
-### 第二部 · Agent 系统与平台（第 4–8 章）
-
-| 章节 | 文章 |
-| --- | --- |
-| 第 4 章 | [组织记忆：从记录到选择](platform/01-memory-system.md) |
-| 第 5 章 | [Context、人格与工具如何分层](platform/02-context-persona-tools.md) |
-| 第 6 章 | [Agent 可靠性：不重、不漏、不静默](platform/03-agent-reliability.md) |
-| 第 7 章 | [权限、安全与人机交接](platform/04-permissions-and-handoffs.md) |
-| 第 8 章 | [延迟、成本与可观测性](platform/05-latency-cost-observability.md) |
-
-### 第三部 · 产品与应用（第 9–12 章）
+### 第二部 · Agent 系统与平台（第 5–9 章）
 
 | 章节 | 文章 |
 | --- | --- |
-| 第 9 章 | [关系型 AI：从用户模型到有效触发](applications/01-relationship-ai.md) |
-| 第 10 章 | [团队 AI：从 Bot 到团队成员](applications/02-team-ai.md) |
-| 第 11 章 | [小团队内部 AI 工具的采纳度量](applications/03-adoption-metrics.md) |
-| 第 12 章 | [内容产品的编辑抽象：给用户语义模型，而不是代码](applications/04-semantic-content-editor.md) |
+| 第 5 章 | [组织记忆：从记录到选择](platform/01-memory-system.md) |
+| 第 6 章 | [Context、人格与工具如何分层](platform/02-context-persona-tools.md) |
+| 第 7 章 | [Agent 可靠性：不重、不漏、不静默](platform/03-agent-reliability.md) |
+| 第 8 章 | [权限、安全与人机交接](platform/04-permissions-and-handoffs.md) |
+| 第 9 章 | [延迟、成本与可观测性](platform/05-latency-cost-observability.md) |
+
+### 第三部 · 产品与应用（第 10–13 章）
+
+| 章节 | 文章 |
+| --- | --- |
+| 第 10 章 | [关系型 AI：从用户模型到有效触发](applications/01-relationship-ai.md) |
+| 第 11 章 | [团队 AI：从 Bot 到团队成员](applications/02-team-ai.md) |
+| 第 12 章 | [小团队内部 AI 工具的采纳度量](applications/03-adoption-metrics.md) |
+| 第 13 章 | [内容产品的编辑抽象：给用户语义模型，而不是代码](applications/04-semantic-content-editor.md) |
 
 ### 工具箱（4 篇）
 

@@ -25,13 +25,19 @@ export const contentGroups = [
         "link": "/model/03-uncertainty-and-validation",
         "chapter": 3,
         "text": "第 3 章 · 模型输出的约束与验证"
+      },
+      {
+        "title": "当答案越来越便宜，什么值得我们追问",
+        "link": "/model/04-when-answers-get-cheaper",
+        "chapter": 4,
+        "text": "第 4 章 · 当答案越来越便宜，什么值得我们追问"
       }
     ],
     "chapterRange": [
       1,
-      3
+      4
     ],
-    "chapterLabel": "第 1–3 章"
+    "chapterLabel": "第 1–4 章"
   },
   {
     "directory": "platform",
@@ -44,39 +50,39 @@ export const contentGroups = [
       {
         "title": "组织记忆：从记录到选择",
         "link": "/platform/01-memory-system",
-        "chapter": 4,
-        "text": "第 4 章 · 组织记忆：从记录到选择"
+        "chapter": 5,
+        "text": "第 5 章 · 组织记忆：从记录到选择"
       },
       {
         "title": "Context、人格与工具如何分层",
         "link": "/platform/02-context-persona-tools",
-        "chapter": 5,
-        "text": "第 5 章 · Context、人格与工具如何分层"
+        "chapter": 6,
+        "text": "第 6 章 · Context、人格与工具如何分层"
       },
       {
         "title": "Agent 可靠性：不重、不漏、不静默",
         "link": "/platform/03-agent-reliability",
-        "chapter": 6,
-        "text": "第 6 章 · Agent 可靠性：不重、不漏、不静默"
+        "chapter": 7,
+        "text": "第 7 章 · Agent 可靠性：不重、不漏、不静默"
       },
       {
         "title": "权限、安全与人机交接",
         "link": "/platform/04-permissions-and-handoffs",
-        "chapter": 7,
-        "text": "第 7 章 · 权限、安全与人机交接"
+        "chapter": 8,
+        "text": "第 8 章 · 权限、安全与人机交接"
       },
       {
         "title": "延迟、成本与可观测性",
         "link": "/platform/05-latency-cost-observability",
-        "chapter": 8,
-        "text": "第 8 章 · 延迟、成本与可观测性"
+        "chapter": 9,
+        "text": "第 9 章 · 延迟、成本与可观测性"
       }
     ],
     "chapterRange": [
-      4,
-      8
+      5,
+      9
     ],
-    "chapterLabel": "第 4–8 章"
+    "chapterLabel": "第 5–9 章"
   },
   {
     "directory": "applications",
@@ -89,33 +95,33 @@ export const contentGroups = [
       {
         "title": "关系型 AI：从用户模型到有效触发",
         "link": "/applications/01-relationship-ai",
-        "chapter": 9,
-        "text": "第 9 章 · 关系型 AI：从用户模型到有效触发"
+        "chapter": 10,
+        "text": "第 10 章 · 关系型 AI：从用户模型到有效触发"
       },
       {
         "title": "团队 AI：从 Bot 到团队成员",
         "link": "/applications/02-team-ai",
-        "chapter": 10,
-        "text": "第 10 章 · 团队 AI：从 Bot 到团队成员"
+        "chapter": 11,
+        "text": "第 11 章 · 团队 AI：从 Bot 到团队成员"
       },
       {
         "title": "小团队内部 AI 工具的采纳度量",
         "link": "/applications/03-adoption-metrics",
-        "chapter": 11,
-        "text": "第 11 章 · 小团队内部 AI 工具的采纳度量"
+        "chapter": 12,
+        "text": "第 12 章 · 小团队内部 AI 工具的采纳度量"
       },
       {
         "title": "内容产品的编辑抽象：给用户语义模型，而不是代码",
         "link": "/applications/04-semantic-content-editor",
-        "chapter": 12,
-        "text": "第 12 章 · 内容产品的编辑抽象：给用户语义模型，而不是代码"
+        "chapter": 13,
+        "text": "第 13 章 · 内容产品的编辑抽象：给用户语义模型，而不是代码"
       }
     ],
     "chapterRange": [
-      9,
-      12
+      10,
+      13
     ],
-    "chapterLabel": "第 9–12 章"
+    "chapterLabel": "第 10–13 章"
   },
   {
     "directory": "toolkit",
@@ -178,5 +184,5 @@ export const contentGroups = [
     "chapterLabel": "2 篇"
   }
 ] as const;
-export const contentCount = 12;
+export const contentCount = 13;
 export const supplementaryCount = 6;
