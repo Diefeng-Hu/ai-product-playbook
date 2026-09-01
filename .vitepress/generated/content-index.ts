@@ -27,10 +27,10 @@ export const contentGroups = [
         "text": "第 3 章 · 模型输出的约束与验证"
       },
       {
-        "title": "当答案越来越便宜，什么值得我们追问",
+        "title": "产品手记-03",
         "link": "/model/04-when-answers-get-cheaper",
         "chapter": 4,
-        "text": "第 4 章 · 当答案越来越便宜，什么值得我们追问"
+        "text": "第 4 章 · 产品手记-03"
       }
     ],
     "chapterRange": [

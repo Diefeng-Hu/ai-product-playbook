@@ -24,7 +24,7 @@ AI 产品经理的实践手册。
 | 第 1 章 | [用模型的稳定能力设计产品](model/01-designing-with-model-boundaries.md) |
 | 第 2 章 | [Context、检索与信息压缩](model/02-context-retrieval-compression.md) |
 | 第 3 章 | [模型输出的约束与验证](model/03-uncertainty-and-validation.md) |
-| 第 4 章 | [当答案越来越便宜，什么值得我们追问](model/04-when-answers-get-cheaper.md) |
+| 第 4 章 | [产品手记-03](model/04-when-answers-get-cheaper.md) |
 
 ### 第二部 · Agent 系统与平台（第 5–9 章）
 
